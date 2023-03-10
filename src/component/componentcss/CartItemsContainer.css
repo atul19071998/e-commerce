@@ -1,0 +1,14 @@
+.cart-items-container{
+    padding:5% 0;
+
+}
+.cart-container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+/* .cart2{
+    border:1px solid grey;
+} */

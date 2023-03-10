@@ -1,0 +1,64 @@
+/* *{
+    border:1px solid green
+} */
+.signup-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-img-container{
+    width:45%;
+    overflow: hidden;
+}
+
+.signup-img-container img{
+    width:100%;
+    height:90vh;
+    
+    
+}
+.signup-content-container{
+    width:50%;
+
+}
+.content-wrapper{
+    padding-right: 3rem;
+}
+.content-wrapper h2{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.form-group{
+    padding: 0.5rem 0;
+
+}
+label{
+    font-size: 1rem;
+}
+ 
+.form-input{
+    width:100%;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+.cart-button{
+    display:inline-block;
+    width:30%;
+    background-color:  #dc3545;
+    color:white;
+    padding:0.5rem;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #ddd;
+    transition:0.2s ease-in;
+    border:none;
+    font-family:Chivo Mono;
+    font-size: 1.2rem;
+     
+}
+.cart-button:hover{
+    background-color: #111;
+    color:white;
+}
