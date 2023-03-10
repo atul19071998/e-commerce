@@ -47,11 +47,7 @@ const Navbar = ({DataTransfer,setData}) => {
         About
       </Link>
     </li>
-    <li class="nav-item">
-      <Link to="/Contact" class="nav-link "  style={{color:" white"}}>
-        Contact
-      </Link>
-    </li>
+ 
     <li class="nav-item">
     <Link to="/login"   class="nav-link "  style={{color:" white"}}>
      Login</Link>
@@ -102,11 +98,7 @@ const Navbar = ({DataTransfer,setData}) => {
                   About
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/Contact" class="nav-link "  style={{color:" white"}}>
-                  Contact
-                </Link>
-              </li>
+              
               <li class="nav-item">
               <a onClick={handleLogout} to="/cart"   class="nav-link "  style={{color:" white"}}>
                Logout</a>

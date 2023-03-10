@@ -9,7 +9,7 @@ import Homepage from "./pages/homepage/Homepage";
 import BookPage from "./pages/bookpage/BookPage";
 import BookDetail from "./pages/bookdetail/BookDetail";
 import AboutPage from './pages/Aboutpage/AboutPage';
-import ContactPage from './pages/Contactpage/ContactPage';
+ 
  
  import Login from './pages/loginpage/Login';
  import  Signup from './pages/signup page/Signup'
@@ -52,7 +52,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Homepage/>} />
       <Route path="/books" element={<BookPage />} />
-      <Route path="/contact" element={<ContactPage/>} />
+   
       <Route path="/about" element={<AboutPage/>} />
       <Route path="/cart" element={<CartPage />} />
       <Route path="/book-details/:id" element={<BookDetail/>} />

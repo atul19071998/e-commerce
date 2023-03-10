@@ -1,0 +1,34 @@
+.about-container{
+    width:99vw;
+    height:100vh;
+    /* border:3px solid red; */
+}
+.about-wrap{
+    width:100%;
+    height:100%;
+    /* border:3px solid red; */
+}
+.about-wrap{
+    display: flex;
+}
+.about-wraps1{
+    width:50%;
+    height:100%;
+    /* border:3px solid red; */
+}
+.about-wraps2{
+    width:50%;
+    height:100%;
+    /* border:3px solid red; */
+}
+.about-wraps2 img{
+    width:100%;
+    height:100%;
+    padding: 2rem 3rem;
+}
+.about-wraps3 img{
+    width:100%;
+    height:50%; 
+    padding: 3rem 6rem;
+    text-align: center;
+}
